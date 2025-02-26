@@ -13,6 +13,6 @@ assignees: ''
 
 ## 作業　<!-- 作業内容を箇条書きで記述しください。 -->
 
-```[tasklist]
+```[sub-issue]
 ### tasks
 ```

@@ -25,18 +25,18 @@ assignees: ''
 
 ## 詳細タスク
 
-```[tasklist]
+```[sub-issue]
 ### 調査
 ```
-```[tasklist]
+```[sub-issue]
 ### 設計
 ```
-```[tasklist]
+```[sub-issue]
 ### フロント実装
 ```
-```[tasklist]
+```[sub-issue]
 ### バックエンド実装
 ```
-```[tasklist]
+```[sub-issue]
 ### テスト
 ```
