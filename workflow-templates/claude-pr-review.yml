@@ -1,0 +1,25 @@
+# Claude CodeでPRを自動レビューする
+# 詳しくは ncdcdev/claude-pr-review の README.md を参照
+#
+# このファイルのほかに、.github/pinact.yml に次の例外が必要
+# （orgで必須のpinactのチェックが、@mainの参照を落とすため）
+#
+#   version: 3
+#   ignore_actions:
+#     - name: ncdcdev/claude-pr-review/.*
+#       ref: main
+name: Claude PR Review
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+  issue_comment:
+    types: [created]
+
+jobs:
+  claude-pr-review:
+    permissions:
+      contents: read
+      pull-requests: write
+      id-token: write
+    uses: ncdcdev/claude-pr-review/.github/workflows/claude-pr-review.yml@main
