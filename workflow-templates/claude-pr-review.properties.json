@@ -1,5 +1,5 @@
 {
   "name": "Claude PR Review",
-  "description": "Claude CodeでPRを自動レビューします。.github/pinact.yml に例外を書く必要があります（ファイル冒頭のコメントを参照）。再レビューは /claude-review とコメントします。",
+  "description": "Claude CodeでPRを自動レビューします。.github/pinact.yml に例外を書く必要があります（ファイル冒頭のコメントを参照）。再レビューは /claude-pr-review とコメントします。",
   "categories": ["Automation"]
 }
